@@ -20,7 +20,7 @@ Shell Script Requirements:
 You think about what the shell script must do and how you would like it operate. You come up with
 the following list.
 The script:
-● Is named "add-local-user.sh ".
+
 ● Enforces that it be executed with superuser (root) privileges. If the script is not executed with
 superuser privileges it will not attempt to create a user and returns an exit status of 1.
 ● Prompts the person who executed the script to enter the username (login), the name for
@@ -39,7 +39,7 @@ Goal:
 The goal of this exercise is to create a shell script that adds users to the same Linux system as the
 script is executed on.
 Scenario:
-The help desk team has been using the "add-local-user.sh " script you created. They're really
+The help desk team has been using the ".sh " script you created. They're really
 happy that they don't have to wait on you to create new accounts. :-) However, they would like for
 you to make a couple of changes to the script when you get a chance.
 They're tired of coming up with a unique password for each user they create. As a matter of fact,
@@ -55,8 +55,7 @@ Shell Script Requirements:
 You have your requirements from the "add-local-user.sh " script you created. You decide to use
 those as the basis for your new requirements. You come up with the following list.
 The script:
-● Is named "add-new-local-user.sh ". (You add the word new to distinguish it from the
-original script.)
+
 ● Enforces that it be executed with superuser (root) privileges. If the script is not executed with
 superuser privileges it will not attempt to create a user and returns an exit status of 1.
 ● Provides a usage statement much like you would find in a man page if the user does not
